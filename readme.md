@@ -3,6 +3,8 @@ This code displays a [modal dialogue][modal] in front of an existing web page.
 It takes a URL as a parameter which is the address of the content to show within the dialogue.
 The dialogue closes when clicked.  Suggestions and improvements are most welcome.
 
+## Example: http://ear1grey.github.io/modalDialogue/
+
 ## Use
 The `modalDialogue` object has two public functions, `open` and `close`.
 

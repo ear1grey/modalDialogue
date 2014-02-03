@@ -1,0 +1,34 @@
+/*
+Free Software: see license.txt Copyright (c) 2011 Rich Boakes
+*/
+.overlay {
+	background: rgba(51,51,51,0.85);
+	min-height: 3em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: -webkit-gradient(linear, left top, right bottom, from(transparent), color-stop(0.25, transparent), color-stop(0.25, rgba(255, 255, 0, 0.85)), color-stop(0.50, rgba(255, 255, 0, 0.85)), color-stop(0.50, transparent), color-stop(0.75, transparent), color-stop(0.75, rgba(255,255, 0, 0.85)), to(rgba(255, 255, 0, 0.75)));
+	background-image: -moz-linear-gradient(linear, left top, right bottom, from(transparent), color-stop(0.25, transparent), color-stop(0.25, rgba(255, 255, 0, 0.85)), color-stop(0.50, rgba(255, 255, 0, 0.85)), color-stop(0.50, transparent), color-stop(0.75, transparent), color-stop(0.75, rgba(255,255, 0, 0.85)), to(rgba(255, 255, 0, 0.75)));	
+	-webkit-background-size: 10em 10em;
+	-moz-background-size: 10em 10em;
+	background-size: 10em 10em;
+}
+
+
+.overlay>.modal {
+	padding: 1ex 1em;
+	background: rgba(255,255,255,1);
+	min-height: 3em;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	right: 10%;
+	bottom: 20%;
+	border: solid black thin;
+	border-radius: 0.5ex;
+	-webkit-box-shadow: 0em 1em 1em rgba(0,0,0,0.5);
+	-moz-box-shadow: 0em 1em 1em rgba(0,0,0,0.5);
+	box-shadow: 0em 1em 1em rgba(0,0,0,0.5);
+}
